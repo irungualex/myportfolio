@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="portfolio-header">
+        <div class="container">
+            <h1 class="logo">ALEX</h1>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="intro-container">
+            <div class="image-container">
+                <img src="c:\Users\user\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\EEB7B7A8C2DB281E98A21D44DAC90448\WhatsApp Image 2024-11-18 at 01.23.17_93402fc6.jpg" alt="Profile Image" class="profile-img">
+            </div>
+            <div class="intro-text">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Hello! I'm a Frontend Developer passionate about creating amazing, functional, 
+                  and responsive web applications. This portfolio shows my journey in web development 
+                  
+                  through the projects I've worked on, the skill set that I have been able to develop,
+                   and how I let my creativity run riot. Feel free to explore, learn more about me, and 
+                   take a look at the projects built all with excitement. If you'd like to connect or
+                    collaborate, please don't hesitate to reach out through the contact section.</p>
+                <button id="learn-more">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>
+       
+          I am a Frontend Developer who desires to craft visually appealing and user-friendly 
+           web experiences. Specialized in bringing all ideas into functional, interactive, 
+           and responsive websites that will work smoothly on all devices.
+           I have a solid base in HTML, CSS, and JavaScript, and enjoy working with modern 
+          tools and frameworks, such as React, Vue.js, and Tailwind CSS, to craft compelling 
+          user interfaces. Whether that means crafting pixel-perfect designs, optimizing web 
+          performance, or bringing layouts responsively into devices, it's all about paying
+           attention to the details that make my work.
+        </p>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+          <!-- Project 1 -->
+          <div class="project-card">
+              <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail" class="project-image">
+              <h3>Project 1: Weather App</h3>
+              <p>A responsive weather application that displays real-time weather data for any location using the OpenWeather API.</p>
+              <ul class="tech-stack">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+              </ul>
+              <div class="project-links">
+                  <a href="https://live-demo-link.com" target="_blank" class="btn">Live Demo</a>
+                  <a href="https://github.com/username/weather-app" target="_blank" class="btn">Source Code</a>
+              </div>
+          </div>
+  
+          <!-- Project 2 -->
+          <div class="project-card">
+              <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail" class="project-image">
+              <h3>Project 2: Task Manager</h3>
+              <p>A task management tool that helps users organize their daily tasks, set reminders, and track progress.</p>
+              <ul class="tech-stack">
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>MongoDB</li>
+              </ul>
+              <div class="project-links">
+                  <a href="https://live-demo-link.com" target="_blank" class="btn">Live Demo</a>
+                  <a href="https://github.com/username/task-manager" target="_blank" class="btn">Source Code</a>
+              </div>
+          </div>
+  
+          <!-- Project 3 -->
+          <div class="project-card">
+              <img src="project3-thumbnail.jpg" alt="Project 3 Thumbnail" class="project-image">
+              <h3>Project 3: Portfolio Website</h3>
+              <p>A personal portfolio website showcasing projects, skills, and contact information with a clean and responsive design.</p>
+              <ul class="tech-stack">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+              </ul>
+              <div class="project-links">
+                  <a href="https://live-demo-link.com" target="_blank" class="btn">Live Demo</a>
+                  <a href="https://github.com/username/portfolio" target="_blank" class="btn">Source Code</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
